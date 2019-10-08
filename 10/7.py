@@ -86,9 +86,28 @@ I'll do a list:
 \t* Cat Food
 \t* Fishies
 \t* Catnip\n\t*Grass
+
 """
 
 print(tabbyCat)
 print(persianCat)
 print(backslashCat)
 print(topCat)
+
+# Escape Seq            What it does?
+# \\
+# \'
+# \"
+# \a
+# \b
+# \f
+# \n
+# \N{name}
+# \r
+# \t
+# \uxxxx
+# \Uxxxxxxx
+# \v
+# \ooo
+# \xhh
+
