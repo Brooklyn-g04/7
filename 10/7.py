@@ -127,6 +127,8 @@ age = input("How old are you?")
 height = input("How tall are you?")
 print("So, you are %r old and %r tall" % (age, height))
 
+# Ask 4 more questions and handle those responses
 
-
-
+favoriteClass = input("What's your favorite class?")
+favoriteFood = input("What's your favorite food?")
+favoriteAnimal = input("What's your favorite animal")
