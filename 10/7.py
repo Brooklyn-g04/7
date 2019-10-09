@@ -95,14 +95,14 @@ print(backslashCat)
 print(topCat)
 
 # Escape Seq            What it does?
-# \\
-# \'
-# \"
-# \a
-# \b
-# \f
-# \n
-# \N{name}
+# \\        1. this divides the symbol by two
+# \'        2.it takes the slash away and leaves ' by itself
+# \"        3.it takes the slash away and leaves the " by itself
+# \a        4.
+# \b        5.
+# \f        6.
+# \n        7.
+# \N{name}      8.
 # \r
 # \t
 # \uxxxx
@@ -110,4 +110,23 @@ print(topCat)
 # \v
 # \ooo
 # \xhh
+
+print("1. \\\\\\\\")
+print("2. \'")
+print("3. \"")
+print("4. \a")
+
+# What does the following code block do:
+#  While True:
+#     for i in ["/", "-", "|", "//", "|"]:
+#        print("%s/r" % i, end='')
+
+#  Can you use ''' instead of """?
+
+age = input("How old are you?")
+height = input("How tall are you?")
+print("So, you are %r old and %r tall" % (age, height))
+
+
+
 
