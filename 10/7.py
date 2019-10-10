@@ -153,4 +153,5 @@ crush = input("Who is your crush?")
 
 print(" Hi! Your name is %r ? Oh that's pretty, my name is Brooklyn. " % name)
 print("Woah!! You have %r siblings! I can barely even stand my 3 siblings. " % siblings)
-
+print(" Your house is %r? I wonder how all of your siblings fit. A %r house would barely fit my family and my dog. " % (house,house))
+print("Dang! Your gpa is that %r? I am always worried about my gpa. I'm surprised your parents don't get mad at you for your %r gpa." % gpa)
