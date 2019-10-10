@@ -98,10 +98,10 @@ print(topCat)
 # \\        1. this divides the symbol by two
 # \'        2.it takes the slash away and leaves ' by itself
 # \"        3.it takes the slash away and leaves the " by itself
-# \a        4.
-# \b        5.
-# \f        6.
-# \n        7.
+# \a        4. makes a weird symbol
+# \b        5. it makes everything disappear except for the 5
+# \f        6. it made the same weird symbol
+# \n        7. it made everything disappear except for the 7.
 # \N{name}      8.
 # \r
 # \t
@@ -115,6 +115,10 @@ print("1. \\\\\\\\")
 print("2. \'")
 print("3. \"")
 print("4. \a")
+print("5.\b")
+print("6.\f")
+print("7.\n")
+
 
 # What does the following code block do:
 #  While True:
@@ -137,3 +141,7 @@ print("You like going to %r" % favoriteClass)
 print("You like eating %r" % favoriteFood)
 print("You like seeing your %r after school" % favoriteAnimal)
 print("You like wearing %r everyday" % favoriteColor)
+
+# My story
+
+
