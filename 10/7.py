@@ -144,4 +144,13 @@ print("You like wearing %r everyday" % favoriteColor)
 
 # My story
 
+name = input("What is your name?")
+siblings = input("How many siblings do you have?")
+house = input("How big is your house?")
+gpa = input("What does your gpa look like?")
+height = input("How tall are you?")
+crush = input("Who is your crush?")
+
+print(" Hi! Your name is %r ? Oh that's pretty, my name is Brooklyn. " % name)
+print("Woah!! You have %r siblings! I can barely even stand my 3 siblings. " % siblings)
 
