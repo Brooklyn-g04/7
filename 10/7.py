@@ -158,3 +158,4 @@ print("Dang! Your gpa is that %r? I am always worried about my gpa. It is always
 print("I always have to look up at you, I feel very short compared to you, considering you are %r and I am only 5 feet." % height)
 print("Earlier I saw you staring at that one dude . Who is he/she? Oh! I know %r, he/she is really nice but super weird. so...Good luck with that." % crush)
 print(" Well, I guess I will see you tomorrow, it was really nice getting to know you bye %r" % name)
+]]
